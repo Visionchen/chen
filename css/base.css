@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+    list-style-type: none;
+}
+
+body {
+    font-family: "Segoe UI Light", Calibri;
+    font-size: 14px;font-weight: bold;
+}
+
+img {
+    vertical-align: top;
+    border: 0 none;
+}
+
+a {
+    text-decoration: none;  }
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+.contain{width: 1200px;margin: 0 auto}
+.header{height: 128px;}
+.top{width: 1200px;margin: 0 auto;}
+.logo {height: 43px;float: left}
+.logo-one {padding-top: 30px;float: left;margin-right: 20px;}
+.logo-two {margin-top: 25px;font-size:12px;border-left:1px solid #dcdcdc;float: left;padding-left: 20px;color: #999;}
+.search {float: right;margin-top: 20px;}
+.text-input {height: 41px;width: 309px;outline: none;padding-left: 14px;border:1px solid #dcdcdc;
+    border-right: none;  font-family: "Segoe UI Light", Calibri;vertical-align: middle}
+.btn-input {height: 43px;width: 44px;vertical-align: middle;border:none;
+background:#ff5842 url(../imgs/search.png) center center no-repeat;cursor: pointer;}
+.nav {width: 1200px;margin: 0 auto;}
+.nav-ul{float: left;margin-top: 20px;}
+.nav-ul a {color: #686868;
+    font-weight: bold;}
+.home a{color: #ff5842}
+.nav li{float: left;padding: 5px 0;margin-right: 48px;font-size: 20px;color: #c1c1c1;}
+.nav-ul li a:hover{color: #ff5842;}
+.nav-right {float: right;margin-top: 25px;color: #fff;font-size: 14px;}
+.nav-right a{color: white}
+.nav-one {background-color: #ff5842;padding: 5px 10px;margin-right: 3px;}
+.nav-two {background-color: #a1a1a1;padding: 5px 10px;}
+.footer-top{height: 210px;background-color: #222f35;width: 100%;}
+.ft-contain li{float: left}
+.footer-bottom{height: 52px;background-color: #172125;width: 100%;}
+.first,.second,.third,.fourth {padding-top: 20px;font-weight: bold;}
+.first dt{color: white;font-size: 22px;margin-bottom: 20px;  }
+.second dl dt a{color: white;font-size: 22px;margin-bottom: 20px;display: block}
+.third dl dt a{color: white;font-size: 22px;margin-bottom: 20px;display: block}
+.fourth dl dt a{color: white;font-size: 22px;margin-bottom: 20px;display: block}
+.inline {text-indent:9px;display: inline-block}
+.first dl dd{color: #6e8893;line-height: 20px}
+.second dl dd a{color: #6e8893;line-height: 22px;font-size: 14px}
+.third dl dd a{color: #6e8893;line-height: 22px;font-size: 14px}
+.fourth dl dd a{color: #6e8893;line-height: 22px;font-size: 14px}
+dl dd a:hover{color: white}
+.first{width: 570px;}
+.second{width: 212px;}
+.third{width: 245px;}
+.bt-left{float: left;line-height:52px;color: #6e8893;vertical-align: middle; font-weight: bold;}
+.bt-right{float: right}
+.ft-bt a{display: inline-block;width: 37px;height: 37px;margin-top: 7px;}
+.f{background:#222f35 url(../imgs/f.png) center center no-repeat;margin-right: 2px;}
+.o{background:#222f35 url(../imgs/o.png) center center no-repeat;margin-right: 2px;}
+.g{background:#222f35 url(../imgs/g.png) center center no-repeat;margin-right: 2px;}
+.you-tobe{background:#222f35 url(../imgs/you-tobe.png) center center no-repeat;}

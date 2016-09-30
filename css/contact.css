@@ -1,0 +1,14 @@
+.content{height: 490px;}
+.back{height: 510px;background:url(../imgs/banner-bg.jpg) center 0 no-repeat;border-top:1px solid #efefef;width: 100%;}
+.phone{margin-top: 20px;height: 32px;}
+.us {margin-left: 10px;margin-top: 10px;line-height: 32px;font-size: 20px;}
+.text{margin-top: 20px;font-size: 14px}
+.tex{margin-top: 18px;font-size: 14px}
+.input{width: 362px;height: 45px;outline: none;font-size: 19px;border: 1px solid #f8f8f8;margin-top: 30px;
+    padding-left:9px;}
+.input1{width: 362px;height: 45px;outline: none;font-size: 19px;border: 1px solid #f8f8f8;margin-left: 30px;
+    margin-right: 30px;margin-top: 30px;padding-left:9px;margin-left: 30px;}
+.input2{width: 1190px;height: 145px;outline: none;font-size: 19px;border: 1px solid #f8f8f8;resize: none;
+        margin-top: 30px;padding-left:9px;line-height: 45px;font-weight: bold; font-family: "Segoe UI Light", Calibri;}
+.input3{padding:16px 90px;outline: none;font-size: 19px;background-color:#ff5842;margin-top: 30px;border: 0 none;color: white;
+    cursor: pointer;}
