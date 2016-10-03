@@ -50,8 +50,10 @@ background:#ff5842 url(../imgs/search.png) center center no-repeat;cursor: point
 .nav-ul li a:hover{color: #ff5842;}
 .nav-right {float: right;margin-top: 25px;color: #fff;font-size: 14px;}
 .nav-right a{color: white}
-.nav-one {background-color: #ff5842;padding: 5px 10px;margin-right: 3px;}
+.nav-one {background-color: #a1a1a1;padding: 5px 10px;margin-right: 3px;color: white;}
 .nav-two {background-color: #a1a1a1;padding: 5px 10px;}
+.nav-one:hover {background-color: #ff5842;color: white}
+.nav-two:hover {background-color: #ff5842;color: white}
 .footer-top{height: 210px;background-color: #222f35;width: 100%;}
 .ft-contain li{float: left}
 .footer-bottom{height: 52px;background-color: #172125;width: 100%;}
@@ -71,8 +73,16 @@ dl dd a:hover{color: white}
 .third{width: 245px;}
 .bt-left{float: left;line-height:52px;color: #6e8893;vertical-align: middle; font-weight: bold;}
 .bt-right{float: right}
+.bt-right a{opacity: .6 ;filter:alpha(opacity=60); }
+.bt-right a:hover{opacity: 1 ;filter:alpha(opacity=100); }
 .ft-bt a{display: inline-block;width: 37px;height: 37px;margin-top: 7px;}
 .f{background:#222f35 url(../imgs/f.png) center center no-repeat;margin-right: 2px;}
 .o{background:#222f35 url(../imgs/o.png) center center no-repeat;margin-right: 2px;}
 .g{background:#222f35 url(../imgs/g.png) center center no-repeat;margin-right: 2px;}
 .you-tobe{background:#222f35 url(../imgs/you-tobe.png) center center no-repeat;}
+.ex{font-size: 20px;vertical-align: middle;padding-left: 10px;}
+.exclusive{float: left;margin-top: 20px;}
+.enter-left-bottom p{font-size: 18px;padding-left:15px;margin-top:10px;}
+.teo{font-size: 14px;padding-left:15px;margin-top:10px;display: inline-block;color: #9f9f9f}
+.po{font-size: 13px;padding-left:15px;margin-top:10px;}
+.colo{color: #ff5842}

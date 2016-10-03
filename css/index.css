@@ -9,15 +9,15 @@ a{height: 47px;}
     padding-left:22px;padding-right: 22px;line-height: 27px;margin-top: 8px;margin-left: 3px}
 #sp{border: none;}
 .exclusive{margin-top: 20px ;vertical-align: middle;float: left}
-.ex{font-size: 20px;vertical-align: middle;padding-left: 10px;}
+
 .glt{float: right;}
 .small{width: 41px;height: 41px;background-color: #f5f5f5;line-height: 38px;text-align: center;
     display: inline-block;margin-top:  20px ;margin-bottom:  20px ;color: #a4a4a4;font-size: 34px;}
 .sma{width: 41px;height: 41px;background-color: #f5f5f5;line-height: 38px;font-size: 34px;text-align: center;
     display: inline-block;margin-top:  20px ;margin-bottom:  20px ;color: #a4a4a4;}
-.sma:hover{background-color: #eeeeee;color: #686868;}
-.small:hover{background-color: #eeeeee;color: #686868;}
-.colo{color: #ff5842}
+.sma:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
+.small:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
+
 .tax-left{width: 386px;height: 223px;background-color: #1f1f1f;margin-right: 21px;}
 .tax-middle{width: 386px;height: 223px;background-color: #1f1f1f;margin-right: 21px;}
 
@@ -45,14 +45,14 @@ a{height: 47px;}
 .gl-left:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
 .gl-right:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
 .new-text{width: 605px;height: 120px;background-color: #2b2b2b;position: absolute;left: 16px;bottom: 10px;}
-.new-header{font-size: 20px;color: white;padding-left:15px;padding-top:13px; }
+.new-header a{font-size: 20px;color: white;padding-left:15px;padding-top:13px; }
 .text-con{font-size: 14px;color: white;padding-left:15px;padding-top:12px;}
 .enter{width: 880px;height: 450px;margin-top: 20px;}
 .enter-left{width: 420px;height: 445px;border-bottom:5px solid #ff5842;float: left}
 .enter-left-top{width: 420px;height: 190px;}
-.enter-left-bottom p{font-size: 18px;padding-left:15px;margin-top:15px;}
+
 .te{font-size: 14px;padding-left:15px;margin-top:15px;display: inline-block;color: #9f9f9f}
-.teo{font-size: 14px;padding-left:15px;margin-top:15px;display: inline-block;color: #9f9f9f}
+
 .enter-right{width: 460px;height: 420px;float: right}
 .enter-r1{width: 220px;height: 216px;float: left;margin-right: 10px;border-bottom:2px solid #f8f8f8}
 .tel{font-size: 10px;padding-left:15px;margin-top:15px;display: inline-block ;color: #9f9f9f}
@@ -62,8 +62,7 @@ a{height: 47px;}
 .last-co{width: 435px;height: 190px;}
 .float{float: left;margin-right: 10px;}
 .flo{float: left}
-.exclusive{float: left}
-.po{font-size: 13px;padding-left:15px;margin-top:15px;}
+
 .last-tai{width: 880px;height: 420px;margin-top: 10px;}
 .last-enter{width: 285px;height: 420px;border: 2px solid #f8f8f8;float: left;margin-right: 7px;}
 .last-ente{width: 285px;height: 420px;border: 2px solid #f8f8f8;float: left;margin-right: 6px;}
@@ -121,15 +120,15 @@ a{height: 47px;}
 .pop-text a{color: black;}
 .tol{font-size: 10px;padding-left:10px;margin-top:5px;display: block ;color: #9f9f9f}
 .ta{margin-top: 20px;}
-.tag{padding: 4px 10px;margin-right: 3px;margin-bottom: 3px;float:left;height: 35px;line-height: 35px;
+.tag{padding: 4px 9px;margin-right: 3px;margin-bottom: 2px;float:left;height: 35px;line-height: 35px;
     display:block;background-color: #f6f6f6;color: #8f8f8f; }
 a.tag:hover{background-color:#f24933;color: white}
 .video{width: 296px;height: 200px;margin-top: 20px;}
 .o-txt{width: 296px;height: 52px;display: block;margin-top: 20px;color: #8f8f8f;border:2px solid #fff;
         background:#f6f6f6 url(../imgs/ho.png) 10px 15px no-repeat ;}
-.o-right{padding-top:10px;font-size: 12px;margin-right: 10px;margin-left: 50px}
+.o-right{padding-top:10px;font-size: 11px;margin-right: 10px;margin-left: 50px;height: 52px;}
 .o-txt:hover{width: 296px;height: 52px; color: #fff;
-    background:#50b4e6 url(../imgs/bo.png) 8px 13px no-repeat ;border:2px solid #42a7d9}
+    background:#50b4e6 url(../imgs/bo.png) 10px 13px no-repeat ;border:2px solid #42a7d9}
 .last-bt{background-color: #ff5842;color: white;height: 43px;width: 90px;vertical-align: middle;border:none;cursor: pointer}
 .searc{margin-top: 20px;width: 300px;}
 .text-inp {height: 41px;width: 204px;outline: none;padding-left: 14px;border:1px solid #dcdcdc;

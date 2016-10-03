@@ -1,0 +1,13 @@
+.gray{height: 5px;width: 100%;background-color: #efefef}
+*{font-weight: bold;}
+.blog-entire{width: 1200px;height: 2500px;margin: 0 auto;}
+.blog_left{width:880px;float: left;}
+.blog_right{width:300px;float: left;}
+.recent_show{width: 880px;height: 232px;border-bottom: 1px solid #e6e6e6;margin-top: 20px;}
+.recent_back{width: 250px;height: 212px;float: left}
+.recent_text{width: 620px;height: 212px;float: left;}
+.recent_text p a{color: #000;}
+.recent_text p a:hover {color: #f60}
+.text_bot{font-size: 14px;margin-left: 15px;margin-top: 14px;width: 540px;height: 90px;}
+.continue{background-color: #ff5842;padding: 15px 28px;color: white;font-size:16px;margin-left: 12px;}
+
