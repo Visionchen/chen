@@ -17,11 +17,20 @@ a{height: 47px;}
     display: inline-block;margin-top:  20px ;margin-bottom:  20px ;color: #a4a4a4;}
 .sma:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
 .small:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
+.all_img{width: 85px;height: 41px;position: absolute;left: 50%;top:50%;  margin-left: -42.5px;
+    margin-top: -20.5px;display: none}
 
-.tax-left{width: 386px;height: 223px;background-color: #1f1f1f;margin-right: 21px;}
-.tax-middle{width: 386px;height: 223px;background-color: #1f1f1f;margin-right: 21px;}
-
-.tax-right{width: 386px;height: 223px;background-color: #1f1f1f;}
+.img_sea{width: 40px;height: 41px;background: #514a49 url(../imgs/search1.png) center center no-repeat;margin-right: 5px;float: left}
+.img_s{width: 40px;height: 41px;background: #514a49 url(../imgs/s.png) center center no-repeat;float: left}
+.tax-left{width: 386px;height: 223px;background:url(../imgs/see1.png);margin-right: 21px;
+    position: relative;opacity: .7;filter:alpha(opacity=70);}
+.tax-left:hover{opacity: 1 ;filter:alpha(opacity=100);}
+.tax-middle:hover{opacity: 1 ;filter:alpha(opacity=100);}
+.tax-right:hover{opacity: 1 ;filter:alpha(opacity=100);}
+.tax-middle{width: 386px;height: 223px;background:url(../imgs/g11.png);margin-right: 21px;
+    position: relative;opacity: .7 ;filter:alpha(opacity=70);}
+.tax-right{width: 386px;height: 223px;background:url(../imgs/g21.png);
+    position: relative;opacity: .7 ;filter:alpha(opacity=70);}
 .tax-text1{width: 382px;height: 340px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;
     border-bottom:5px solid #ff5842;margin-right: 20px;float: left}
 .tax-text2{width: 382px;height: 340px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;
