@@ -120,6 +120,10 @@ a{height: 47px;}
     line-height: 27px;margin-top: 8px;margin-left: 1px}
 .coo a {color: white;display: inline-block;margin-right: -6px}
 .coo a:hover{background-color:#f24933;color: white}
+
+.display{display: none}
+
+.focus{background-color:#f24933;color: white}
 .pop-con{width: 300px;height: 560px;border:1px solid #f8f8f8;}
 .pop-con1{width:270px;height: 100px;margin-top: 10px;margin-left: 10px;
     border-bottom:1px solid #f8f8f8 ;}
@@ -127,6 +131,7 @@ a{height: 47px;}
 .pop-text{float: left;width: 170px;height: 100px;}
 .pop-text p{font-size: 16px;padding-left:5px;margin-top:5px;}
 .pop-text a{color: black;}
+
 .tol{font-size: 10px;padding-left:10px;margin-top:5px;display: block ;color: #9f9f9f}
 .ta{margin-top: 20px;}
 .tag{padding: 4px 9px;margin-right: 3px;margin-bottom: 2px;float:left;height: 35px;line-height: 35px;

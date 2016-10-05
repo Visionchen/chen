@@ -1,28 +1,30 @@
 .gray{height: 5px;width: 100%;background-color: #efefef}
 *{font-weight: bold;}
-.blog-entire{width: 1200px;height: 2500px;margin: 0 auto;}
+.blog-entire{width: 1200px;margin: 0 auto;}
 .blog_left{width:880px;float: left;margin-right:20px}
-.blog_right{width:300px;float: left;background-color: red;height:600px}
+.blog_right{width:300px;float: left;}
 .enter-left-botto p{font-size: 18px;margin-top:10px;}
 .teo_read{font-size: 14px;margin-top:10px;display: inline-block;color: #9f9f9f}
 .po_read{font-size: 18px;margin-top:10px;}
 .read_picture{width: 880px;height: 382px;margin-top: 25px;}
-.read_text{width: 880px;height: 665px;border-bottom:2px solid #f8f8f8}/*h:135px*/
-.read_text p{font-size: 16px;color: #6c6c6c;padding:24px 0;}
+.read_text{width: 880px;height: 920px;border-bottom:2px solid #f8f8f8}/*h:135px*/
+.read_text p{font-size: 16px;color: #6c6c6c;padding:30px 0;margin-top: 40px;}
 .comments{width: 880px;}
-.comments_com{width: 880px;height: 138px;padding: 20px 0;border-bottom: 2px solid #f8f8f8;}
+.comments_com{width: 880px;height: 158px;padding: 25px 0;border-bottom: 2px solid #f8f8f8;}
 .comments_pic{width: 50px;height: 50px;float: left}
-.comments_text{float: left;padding-left:10px; }
+.comments_text{float: left;padding-left:10px;}
 .c{width: 820px;padding: 2px 0}
+.comments_text1 a{color: #ff5842;}
+.comments_text3 a{color: #ff5842;}
 .comments_text1 {font-size: 18px;color: #ff5842;float: left}
 .comments_text3 {font-size: 18px;color: #ff5842;float: right}
 .comments_text2 {font-size: 14px;color: #6c6c6c;}
-.comments_text4 {font-size: 16px;color: #6c6c6c;padding-top: 20px;}
-.input{width: 410px;height: 45px;outline: none;font-size: 19px;border: 2px solid #f8f8f8;margin-top: 20px;
+.comments_text4 {font-size: 16px;color: #6c6c6c;padding-top: 25px;}
+.input{width: 410px;height: 45px;outline: none;font-size: 19px;border: 2px solid #f8f8f8;margin-top: 30px;
     padding-left:9px;margin-right: 30px;font-family: "Segoe UI Light", Calibri;}
 .input1{width: 410px;height: 45px;outline: none;font-size: 19px;border: 2px solid #f8f8f8;
-   margin-top: 20px;padding-left:9px;font-family: "Segoe UI Light", Calibri;}
+   margin-top: 30px;padding-left:9px;font-family: "Segoe UI Light", Calibri;}
 .input2{width: 866px;height: 145px;outline: none;font-size: 19px;border: 2px solid #f8f8f8;resize: none;
-    margin-top: 20px;padding-left:9px;line-height: 45px;font-weight: bold; font-family: "Segoe UI Light", Calibri;}
-.input3{padding:15px 35px;outline: none;font-size: 19px;background-color:#ff5842;margin-top: 20px;border: 0 none;color: white;
+    margin-top: 30px;padding-left:9px;line-height: 45px;font-weight: bold; font-family: "Segoe UI Light", Calibri;}
+.input3{padding:15px 35px;outline: none;font-size: 19px;background-color:#ff5842;margin-top: 30px;border: 0 none;color: white;
     cursor: pointer;}

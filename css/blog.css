@@ -10,4 +10,5 @@
 .recent_text p a:hover {color: #f60}
 .text_bot{font-size: 14px;margin-left: 15px;margin-top: 14px;width: 540px;height: 90px;}
 .continue{background-color: #ff5842;padding: 15px 28px;color: white;font-size:16px;margin-left: 12px;}
-
+.continue:hover{
+    color: #fff;}
