@@ -19,7 +19,8 @@ a{height: 47px;}
 .small:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
 .all_img{width: 85px;height: 41px;position: absolute;left: 50%;top:50%;  margin-left: -42.5px;
     margin-top: -20.5px;display: none}
-
+.width{width: 10000px;position: relative;}
+.flow {overflow: hidden}
 .img_sea{width: 40px;height: 41px;background: #514a49 url(../imgs/search1.png) center center no-repeat;margin-right: 5px;float: left}
 .img_s{width: 40px;height: 41px;background: #514a49 url(../imgs/s.png) center center no-repeat;float: left}
 .tax-left{width: 386px;height: 223px;background:url(../imgs/see1.png);margin-right: 21px;
@@ -35,33 +36,36 @@ a{height: 47px;}
     border-bottom:5px solid #ff5842;margin-right: 20px;float: left}
 .tax-text2{width: 382px;height: 340px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;
     border-bottom:5px solid #ff5842;margin-right: 20px;float: left}
-.tax-text3{width: 382px;height: 340px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;
-    border-bottom:5px solid #ff5842;float: right  }
+/*.tax-text3{width: 382px;height: 340px;border-left:2px solid #f8f8f8;border-right:2px solid #f8f8f8;*/
+    /*border-bottom:5px solid #ff5842;float: right  }*/
 .tax-text1 p{font-size: 18px;padding-left:15px;margin-top:15px;  }
 .tax-text2 p{font-size: 18px;padding-left:15px;margin-top:15px;  }
 .tax-text3 p{font-size: 18px;padding-left:15px;margin-top:15px;  }
 .tex{font-size: 14px;padding-left:15px;margin-top:15px;display: inline-block ;color: #9f9f9f}
 .content{width: 1200px;margin: 0 auto;}
 .left{width: 900px;float: left;}
-.new{width: 880px;height: 400px;background-color: #d7d7d7;margin-top: 20px;border-bottom:5px solid #ff5842;
+.new{width: 6000px;height: 405px;margin-top: 20px;
     position: relative;}
+.imge{width: 880px;height: 400px;position: relative;border-bottom:5px solid #ff5842;}
 .xin{margin-top: 10px;margin-left: 16px;display: block}
-.gl{position: absolute;bottom: 10px;right: 10px;}
+.gl{position: absolute;bottom: 15px;left: 780px;}
+.v{position: relative}
+.v li{float: left}
 .gl-left{width: 41px;height: 41px;background-color: #404040;line-height: 38px;text-align: center;
     display: inline-block;color: #c6c6c6;font-size: 34px;}
 .gl-right{width: 41px;height: 41px;background-color: #404040;line-height: 38px;text-align: center;
     display: inline-block;color: #c6c6c6;font-size: 34px;}
 .gl-left:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
 .gl-right:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
-.new-text{width: 605px;height: 120px;background-color: #2b2b2b;position: absolute;left: 16px;bottom: 10px;}
+.new-text{width: 605px;height: 120px;background-color: #2b2b2b;}
+.new-tex{width: 605px;height: 120px;overflow: hidden;position: absolute; bottom: 10px;left: 16px;}
 .new-header a{font-size: 20px;color: white;padding-left:15px;padding-top:13px; }
 .text-con{font-size: 14px;color: white;padding-left:15px;padding-top:12px;}
 .enter{width: 880px;height: 450px;margin-top: 20px;}
 .enter-left{width: 420px;height: 445px;border-bottom:5px solid #ff5842;float: left}
-.enter-left-top{width: 420px;height: 190px;}
-
+.enter-left-top{width: 420px;height: 190px;position: relative}
+.ski{position: absolute;left: 0;top:0;}
 .te{font-size: 14px;padding-left:15px;margin-top:15px;display: inline-block;color: #9f9f9f}
-
 .enter-right{width: 460px;height: 420px;float: right}
 .enter-r1{width: 220px;height: 216px;float: left;margin-right: 10px;border-bottom:2px solid #f8f8f8}
 .tel{font-size: 10px;padding-left:15px;margin-top:15px;display: inline-block ;color: #9f9f9f}
@@ -78,7 +82,7 @@ a{height: 47px;}
 .last-entr{width: 285px;height: 420px;border: 2px solid #f8f8f8;float: left;}
 .la-pic{width: 286px;height: 130px;}
 .loh{width: 880px;height: 600px;}
-.lohh{width: 880px;height: 400px;background-color: #b4b4b4}
+.lohh{width: 880px;height: 400px;}
 .last-t{width: 880px;height: 470px;}
 .last-th{width: 425px;height: 90px;float: left;padding: 7px 5px;margin-right:5px;border-bottom:2px solid #f8f8f8 }
 .last-the{width: 90px;height: 90px;float: left}
