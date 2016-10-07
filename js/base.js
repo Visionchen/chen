@@ -1,6 +1,7 @@
 /**
  * Created by Administrator on 2016/10/4.
  */
+//侧边栏选项卡
 window.onload = function() {
     function $(id) {
         return document.getElementById(id);

@@ -61,6 +61,7 @@ a{height: 47px;}
 .new-tex{width: 605px;height: 120px;overflow: hidden;position: absolute; bottom: 10px;left: 16px;}
 .new-header a{font-size: 20px;color: white;padding-left:15px;padding-top:13px; }
 .text-con{font-size: 14px;color: white;padding-left:15px;padding-top:12px;}
+#secUl{position: relative}
 .enter{width: 880px;height: 450px;margin-top: 20px;}
 .enter-left{width: 420px;height: 445px;border-bottom:5px solid #ff5842;float: left}
 .enter-left-top{width: 420px;height: 190px;position: relative}
@@ -75,7 +76,6 @@ a{height: 47px;}
 .last-co{width: 435px;height: 190px;}
 .float{float: left;margin-right: 10px;}
 .flo{float: left}
-
 .last-tai{width: 880px;height: 420px;margin-top: 10px;}
 .last-enter{width: 285px;height: 420px;border: 2px solid #f8f8f8;float: left;margin-right: 7px;}
 .last-ente{width: 285px;height: 420px;border: 2px solid #f8f8f8;float: left;margin-right: 6px;}
@@ -83,6 +83,10 @@ a{height: 47px;}
 .la-pic{width: 286px;height: 130px;}
 .loh{width: 880px;height: 600px;}
 .lohh{width: 880px;height: 400px;}
+#thirdUl{position: relative}
+#tUl{position: relative;height: 5000px;}
+#tUl li{height: 200px;}
+.ul2{height: 200px;border: 2px solid #f8f8f8;margin-bottom: 18px;}
 .last-t{width: 880px;height: 470px;}
 .last-th{width: 425px;height: 90px;float: left;padding: 7px 5px;margin-right:5px;border-bottom:2px solid #f8f8f8 }
 .last-the{width: 90px;height: 90px;float: left}
