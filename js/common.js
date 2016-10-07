@@ -39,7 +39,6 @@ function animate(obj, json, fn) {
     clearInterval(obj.timer);
     // 开始运动
     obj.timer = setInterval(function () {
-        console.log('d')
         var flag = true; // 假设所有动画都执行完毕
         for(var attr in json) {   // {width:200}    attr:width   json[attr]  => 200
             // 获取当前当前对象的attr属性值

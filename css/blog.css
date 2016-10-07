@@ -1,7 +1,7 @@
 .gray{height: 5px;width: 100%;background-color: #efefef}
 *{font-weight: bold;}
 .blog-entire{width: 1200px;height: 2500px;margin: 0 auto;}
-.blog_left{width:880px;float: left;}
+.blog_left{width:880px;float: left;margin-right: 20px}
 .blog_right{width:300px;float: left;}
 .recent_show{width: 880px;height: 232px;border-bottom: 1px solid #e6e6e6;margin-top: 20px;}
 .recent_back{width: 250px;height: 212px;float: left}

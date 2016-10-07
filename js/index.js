@@ -80,7 +80,6 @@ $('secondRight').onmouseover = function () {
 $('secondLeft').onmouseover = function () {
     clearInterval(timer1)
 };
-
 $('secondRight').onclick = function () {
         right();
 };
@@ -107,10 +106,6 @@ function left() {
     animate($('secondUl'),{left:-880*cu});
     animate($('secUl'),{top:-120*cu});
 }
-
-
-
-
 ////第三个轮播
 var cur = 0 ;
 var thirdUl = $('thirdUl').getElementsByTagName('li');

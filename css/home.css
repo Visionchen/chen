@@ -1,0 +1,55 @@
+*{font-weight: bold;}
+.gray{height: 5px;width: 100%;background-color: #efefef}
+/*第一个轮播*/
+.first_sec{width: 100%;height: 477px;background-color: #f9f9f9;position: relative}
+.g-left{width: 41px;height: 41px;background-color: #404040;line-height: 38px;text-align: center;
+    display: inline-block;color: #c6c6c6;font-size: 34px;position: absolute;top: 50%;margin-top:-20px;left: 10px;}
+.l-right{width: 41px;height: 41px;background-color: #404040;line-height: 38px;text-align: center;display: inline-block;
+    color: #c6c6c6;font-size: 34px;position: absolute;top: 50%;margin-top:-20px;right: 10px;}
+.g-left:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
+.l-right:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
+.first_con{width: 1200px;height: 477px;margin: 0 auto;overflow: hidden}
+.first_con ul{width: 10000px;position: relative}
+.first_con ul li {float: left;width: 1200px;height: 477px; }
+.computer{width: 1200px;height: 477px;background: url(../imgs/02home02.png) 500px 38px no-repeat}
+.li1_text{color: #ff5842;font-size: 28px;padding-top: 53px;}
+.li1_text1{color: #8b8b8b;font-size: 20px;padding-top: 12px;}
+.li1_text2{color: #656565;font-size: 16px;padding-top: 25px;width: 508px;border-top:1px solid #e2e2e2;margin-top: 25px;}
+.in{padding:15px 65px 15px 35px;outline: none;font-size: 19px;margin-top: 110px;border: 0 none;color: white;
+    cursor: pointer;background:#ff5842 url(../imgs/02home01.png) 160px 20px no-repeat;
+    display:inline-block;font-family: "Segoe UI Light", Calibri;}
+.in:hover{color: white}
+/*黑色部分*/
+.black{height: 100px;width: 100%;background-color: #121212;color: white;font-size: 20px;}
+.black_a{display: inline-block;padding: 15px;color: white;background-color: #1f1f1f;margin: 20px 0;}
+.b_left{float: left}
+.black_img{vertical-align: middle;float: right;margin: 40px 0;cursor: pointer}
+.black_img:hover{background-color: #505050}
+/*Our Services*/
+.second_sec{width: 1200px;height: 246px;border-bottom: 1px solid #e6e6e6;margin-top: 20px;}
+.task{width: 380px;height: 219px;border-top: 7px solid #ff5842;background-color: #f9f9f9;float: left}
+.task1{width: 380px;height: 219px;border-top: 7px solid #ff5842;background-color: #f9f9f9;float: left;margin:0 30px}
+.task_content{width: 340px;height: 180px;margin: 26px 20px 13px 20px;}
+h1{font-size: 28px;float: left;}
+.task_img{float: right}
+.task_text{font-size: 16px;margin-top: 20px;}
+.task_a{display: inline-block;color: #0fa8ff;margin-top: 30px;}
+.task_a:hover{color: #0fa8ff;text-shadow: 1px 1px 1px}
+.task_a img{vertical-align: middle}
+/*第三个轮播*/
+.store_f{}
+.glt{float: right;}
+.small{width: 41px;height: 41px;background-color: #f5f5f5;line-height: 38px;text-align: center;
+    display: inline-block;margin-top:  20px ;margin-bottom:  20px ;color: #a4a4a4;font-size: 34px;}
+.sma{width: 41px;height: 41px;background-color: #f5f5f5;line-height: 38px;font-size: 34px;text-align: center;
+    display: inline-block;margin-top:  20px ;margin-bottom:  20px ;color: #a4a4a4;}
+.sma:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
+.small:hover{background-color: #eeeeee;color: #686868;cursor: pointer}
+.third_sec{width: 1200px;height: 420px;border-bottom: 1px solid #e6e6e6;}
+.third_se{width: 1200px;height: 385px;overflow: hidden}
+.third_se ul{width: 8000px;position: relative;}
+.third_se ul li{width: 281px;height:381px ;border: 2px solid #f8f8f8;float: left;margin-right: 20px;position: relative}
+.t_gray{height: 100px;width: 281px;position: absolute;left: 0;bottom: 0;background-color: #f8f8f8;
+    text-align: center;font-size: 20px;color: red}
+.t_gray:hover{background-color: lightblue;color: #f60;}
+.third_se ul li:hover{border: 2px solid #ededed;}
