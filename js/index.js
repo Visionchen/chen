@@ -41,7 +41,6 @@ for (var i = 0; i < allLi.length; i++) {
     allLi[i].onmouseout = function () {
         for (var j = 0; j < allLi.length; j++) {
                 allImg[j].style.display = 'none';
-
         }
     }
 }

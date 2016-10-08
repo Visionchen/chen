@@ -10,8 +10,14 @@
 .l-right:hover{ background-color: #a4a4a4;color: #f60;cursor: pointer}
 .first_con{width: 1200px;height: 477px;margin: 0 auto;overflow: hidden}
 .first_con ul{width: 10000px;position: relative}
-.first_con ul li {float: left;width: 1200px;height: 477px; }
-.computer{width: 1200px;height: 477px;background: url(../imgs/02home02.png) 500px 38px no-repeat}
+.first_con ul li {float: left;width: 1200px;height: 477px; position:relative}
+.li1_img1{position: absolute;top:20px;right: 5px;}
+.li1_img2{position: absolute;top:40px;right: 50px;}
+.li1_img3{position: absolute;top:100px;right: 50px;}
+.position{position: relative}
+.li_left{height: 477px;width: 508px;}
+.second_con{width: 500px;height: 477px;position: absolute;left: 0;top:0;overflow: hidden}
+#secondUl{height: 5000px;width: 508px;position: relative}
 .li1_text{color: #ff5842;font-size: 28px;padding-top: 53px;}
 .li1_text1{color: #8b8b8b;font-size: 20px;padding-top: 12px;}
 .li1_text2{color: #656565;font-size: 16px;padding-top: 25px;width: 508px;border-top:1px solid #e2e2e2;margin-top: 25px;}
