@@ -166,26 +166,12 @@
         $('#firstRight').click(function () {
             right()
         });
-        $('#firstUl').hover(function () {
+        $('#firstUl,#firstLeft,#secondUl,#firstRight').hover(function () {
             clearInterval(timer1)
         },function () {
             timer1 = setInterval(left,2000);
         });
-        $('#secondUl').hover(function () {
-            clearInterval(timer1)
-        },function () {
-            timer1 = setInterval(left,2000);
-        });
-        $('#firstRight').hover(function () {
-            clearInterval(timer1)
-        },function () {
-            timer1 = setInterval(left,2000);
-        });
-        $('#firstLeft').hover(function () {
-            clearInterval(timer1)
-        },function () {
-            timer1 = setInterval(left,2000);
-        });
+    
         function right() {
             cur++;
             if(cur == len_1){
@@ -226,17 +212,7 @@
         $('#thirdRight').click(function () {
             right_2()
         });
-        $('#thirdUl').hover(function () {
-            clearInterval(timer_2)
-        },function () {
-            timer_2 = setInterval(right_2,2000);
-        });
-        $('#thirdRight').hover(function () {
-            clearInterval(timer_2)
-        },function () {
-            timer_2 = setInterval(right_2,2000);
-        });
-        $('#thirdLeft ').hover(function () {
+        $('#thirdUl,#thirdLeft,#thirdRight').hover(function () {
             clearInterval(timer_2)
         },function () {
             timer_2 = setInterval(right_2,2000);
@@ -276,17 +252,7 @@
         $('.fif_thi').click(function () {
             right_1()
         });
-        $('.fif_sec').hover(function () {
-            clearInterval(timer_1)
-        },function () {
-            timer_1 = setInterval(right_1,2000);
-        });
-        $('.fif_thi').hover(function () {
-            clearInterval(timer_1)
-        },function () {
-            timer_1 = setInterval(right_1,2000);
-        });
-        $('.fif_fir').hover(function () {
+        $('.fif_sec,.fif_fir,.fif_thi').hover(function () {
             clearInterval(timer_1)
         },function () {
             timer_1 = setInterval(right_1,2000);

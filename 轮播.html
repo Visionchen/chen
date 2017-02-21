@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>轮播</title>
+    <style>
+        body,ul,li{ margin:0; padding:0;}
+        .divbox{ width: 1000px; margin:0 auto; position: relative;}
+        .div_a{ width: 440px;border:1px solid #eee; margin:100px auto; position: relative; height: 100px; overflow: hidden;}
+        .div_a ul{ overflow:hidden; position: absolute; height: 100px;}
+        .div_a li{ width:110px; float:left; list-style:none; text-align:center;}
+        .div_a li span{ margin:0 auto;}
+        .pos{position: absolute;}
+        .next{ position: absolute; right: 0; height: 50px; top: 0; width: 50px; display: block; background: #000;}
+        .prev{ position: absolute; left: 0; height: 50px; top: 0; width: 50px; display: block; background: #000;}
+    </style>
+
+</head>
+<body>
+<div class="divbox">
+    <div class="div_a">
+        <div id="stra" class="pos">
+        <ul id="fuck">
+                <li><span style="width:100px;height:100px;background:#000;display:block;"></span></li>
+                <li><span style="width:100px;height:100px;background:#ff0;display:block;"></span></li>
+                <li><span style="width:100px;height:100px;background:#f00;display:block;"></span></li>
+                <li><span style="width:100px;height:100px;background:#dff;display:block;"></span></li>
+                <li><span style="width:100px;height:100px;background:#f00;display:block;"></span></li>
+                <li><span style="width:100px;height:100px;background:#dff;display:block;"></span></li>
+        </ul>
+        </div>
+    </div>
+    <a class="prev" href="javascript:;"></a>
+    <a class="next" href="javascript:;"></a>
+</div>
+<script src="js/jquery.min.js"></script>
+<script>
+    var ii=0;
+    var obj=$("#fuck");
+    obj.find("li").clone().appendTo("#stra");//克隆一份
+    var length=obj.find("li").length;
+    var width=obj.find("li").width();
+    var str=length*width;
+    obj.width(str);
+    var step=0;//定义动画值，初始值为0,0表示动画可以执行，1表示动画正在执行，不能点击
+    var timo=setInterval(zdgd,3000); //3秒执行zdgd方法
+    function zgd(ii){
+        obj.animate({
+            left:width*ii
+        },1000)
+    }
+    $(".prev").on("click",function(){
+        if(step==0){
+            ii++;
+            if(ii==length/2+1){
+                ii=1;
+            }else if(ii==1){
+                obj.css({"marginLeft":-str/2,"marginRight":0})
+            }
+            step=1;
+            zgd(ii)
+        }else{
+            return false;
+        }
+    });
+
+    $(".next").on("click",function(){
+        if(step==0){
+            ii--;
+            if(ii==-1){
+                obj.css({"marginRight":str/2,"marginLeft":0})
+            }else if(ii==-length/2-1){
+                ii=-1;
+            }
+            step=1;
+            zgd(ii)
+        }else{
+            return false;
+        }
+    });
+
+
+    $(".prev,.next,.pos").hover(function(){ //鼠标移上去停止动画，移开执行
+        clearInterval(timo)
+    },function(){
+        timo=setInterval(zdgd,3000);
+    });
+
+
+    function zdgd(){
+        ii++;
+        if(ii==length/2+1){
+            ii=1;
+        }else if(ii==1){
+            obj.css({"marginLeft":-str/2,"marginRight":0})
+        }
+        obj.animate({
+            left:width*ii
+        },1000)
+    }
+</script>
+</body>
+</html>
